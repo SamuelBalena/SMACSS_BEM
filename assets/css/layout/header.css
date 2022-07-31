@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 125px;
+    background: transparent;
+}
+
+.nav_logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.nav_list {
+    display: flex;
+}
+
+.nav_item {
+    padding: 5px;
+}
+
+.nav_link {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white);
+}

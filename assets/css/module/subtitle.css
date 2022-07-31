@@ -1,0 +1,21 @@
+.el__subtitle {
+    font-size: 2.5rem;
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+
+    text-align: center;
+    margin: 20px;
+
+    color: var(--black-light);
+}
+
+.el__subtitle::after {
+    content: "";
+    height: 2px;
+    width: 200px;
+
+    display: block;
+    margin: 10px auto 0 auto;
+
+    background: #000;
+}

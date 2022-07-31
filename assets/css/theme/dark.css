@@ -1,0 +1,7 @@
+.dark {
+    background-color: rgb(10, 10, 10);
+}
+
+.dark p, h2, h1, h3, h4, h6, h5 {
+    color: var(--white);
+}
